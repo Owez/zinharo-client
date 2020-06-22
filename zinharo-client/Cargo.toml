@@ -1,0 +1,11 @@
+[package]
+name = "zinharo-client"
+version = "0.1.0"
+authors = ["Owez <owez@scalist.net>"]
+edition = "2018"
+
+[dependencies]
+zinharo-rs = { path = "../zinharo-rs" }
+reqwest = { version = "0.10", features = ["blocking", "json"] }
+bzip2 = "0.3.3"
+bytes = "0.5.4"

@@ -1,0 +1,2 @@
+[workspace]
+members = ["zinharo-client, zinharo-rs"]
